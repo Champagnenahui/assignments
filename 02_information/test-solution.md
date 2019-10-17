@@ -3,7 +3,6 @@
 <!-- Chapter: 2 -->
 
 
-+:---
 ## 2.1 Umwandlung ins Hexadezimalsystem (15 Punkte)
 Wandeln Sie die folgenden Zahlen in das _Hexadezimalsystem_ (Basis 16) um:
 
