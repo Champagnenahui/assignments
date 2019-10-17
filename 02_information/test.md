@@ -13,35 +13,33 @@ Wandeln Sie die folgenden Zahlen in das _Hexadezimalsystem_ (Basis 16) um:
   - Dezimal: 128
   - Binär: 1111000011110000
 
-<div style="border: 1px solid grey;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-
 
 ## 2.2 Umwandeln ins binäre Zahlensystem (5 Punkte)
 Wandeln Sie die Zahl `29` in eine _binäre Darstellung_ (Basis 2) um. Kreuzen Sie die richtige Antwort an.
 
-  * [ ] 01100
   * [ ] 101101
-  * [ ] 10101
-  * [ ] 11101
   * [ ] 11100
+  * [ ] 11101
+  * [ ] 10101
+  * [ ] 01100
 
 ## 2.3 Binäre Addition (15 Punkte)
 _Addieren_ Sie die binären Zahlen 101100110 und 110001100. Kreuzen Sie die richtige Antwort an.
 
-  * [ ] 1111110010
-  * [ ] 1011000010
-  * [ ] 1011110010
-  * [ ] 1011110111
   * [ ] 1011000011
+  * [ ] 1011000010
+  * [ ] 1011110111
+  * [ ] 1011110010
+  * [ ] 1111110010
 
 ## 2.4 Binäre Subtraktion (20 Punkte)
 _Subtrahieren_ Sie von der binären Zahl 1001100 die Zahl 101100 unter Verwendung des _Zweierkomplements_. Kreuzen Sie die richtige Antwort an.
 
-  * [ ] (1)0100000
-  * [ ] (1)1100000
-  * [ ] (0)0101000
   * [ ] (1)1101100
+  * [ ] (1)0100000
+  * [ ] (0)0101000
   * [ ] (0)0101111
+  * [ ] (1)1100000
 
 ## 2.5 Zweierkomplement (15 Punkte)
 Bilden Sie das _Zweierkomplement_ der folgenden binären Zahlen ohne die Bitbreite zu vergrößern:
@@ -49,19 +47,13 @@ Bilden Sie das _Zweierkomplement_ der folgenden binären Zahlen ohne die Bitbrei
   - 101001001000
   - 111001011001
 
-<div style="border: 1px solid grey;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-
 
 ## 2.6 Wertebereich (10 Punkte)
 _Warum_ ergibt die Addition `255 + 2` bei einer Zahlendarstellung mit 8 Bit (ohne Vorzeichen) den Wert 1?
 
-<div style="border: 1px solid grey;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-
 
 ## 2.7 ASCII-Code (10 Punkte)
 Was versteht man unter dem _ASCII-Code_?
-
-<div style="border: 1px solid grey;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 
 ## 2.8 Abtastrate (10 Punkte)
