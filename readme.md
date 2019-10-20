@@ -10,4 +10,5 @@ Der Überblick zeigt Ihnen die jeweiligen Themen und die dazugehörigen Termine,
 | 2. | 09.10 | [Information](02_information/readme.md) | [Übungen](02_information/exercise.md) |
 | 3. | 16.10 | [Kompression und Codierung](03_codes/readme.md) | [Übungen](03_codes/exercise.md) |
 | 4. | 23.10 | [Computerhardware](04_hardware/readme.md) | [Übungen](04_hardware/exercise.md) |
+| 5. | 30.10 | [Schaltnetze](05_digital_logic/readme.md) | [Übungen](05_digital_logic/exercise.md) |
 
