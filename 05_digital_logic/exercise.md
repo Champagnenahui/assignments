@@ -59,6 +59,8 @@ Eine Schaltfunktion y mit drei Eingängen x1, x2, x3 sei durch folgende Funktion
 
 Geben Sie die Schaltfunktion in disjunktiver Normalform an, erstellen Sie das zugehörige KV-Diagramm und vereinfachen Sie die Funktion so weit wie möglich.
 
+<img src="img/kv-leer-2.png" width="250">
+
 
 ## 5.11 Gatter erstellen
 Erstellen Sie eine Wertetabelle und einen Schaltplan mit möglichst wenig Gattern für die folgende Schaltfunktion:
