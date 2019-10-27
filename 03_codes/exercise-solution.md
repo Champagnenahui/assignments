@@ -1,4 +1,4 @@
-# 3. Codes - Übungen (Musterlösung)
+# 3. Kompression und Codierung - Übungen (Musterlösung)
 
 <!-- Chapter: 3 -->
 
@@ -261,7 +261,7 @@ Das folgende Bild (Auflösung 640x466 Pixel) hat mit JPEG-Kompression (75% Quali
 
 <img src="img/jpeg-testbild.jpg" width="300">
 
-  1. Wie viel Speicher würde man benötigen, wenn man es unkomprimiert ablegen wollte. Gehen Sie von 8 Bit pro Farbe ohne Alphakanal aus. Ignorieren Sie die Header und Metadaten.
+  1. Wie viel Speicher würde man benötigen, wenn man es unkomprimiert ablegen wollte. Gehen Sie von 8 Bit pro Farbkanal (RGB) ohne Alphakanal aus. Ignorieren Sie die Header und Metadaten.
   2. Wie stark ist somit die Kompression, d.h. um welchen Faktor wird das Bild durch sie kleiner?
 
 *Lösung:*
