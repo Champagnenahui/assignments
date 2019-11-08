@@ -57,11 +57,11 @@ Im Rahmen des Internet Protocols Version 4 (IPv4) taucht immer wieder die sogena
 
 
 ## 7.15 Netzmaske berechnen
-Gegeben sei ein IPv4-Netz mit einer /12-Netzmaske. Bestimmen Sie bitte für die IP-Adresse `173.194.69.102` die Netz-Adresse.
+Gegeben sei ein IPv4-Netz mit einer /12-Netzmaske. Bestimmen Sie bitte für die IP-Adresse `192.168.64.86` die Netzadresse.
 
 
 ## 7.16 Netzmaske berechnen
-Gegeben sei ein IPv4-Netz mit einer /16-Netzmaske. Bestimmen Sie bitte für die IP-Adresse `8.8.19.240` die Netz-Adresse.
+Gegeben sei ein IPv4-Netz mit einer /16-Netzmaske. Bestimmen Sie bitte für die IP-Adresse `192.168.64.240` die Netz-Adresse.
 
 
 ## 7.17 Routing
