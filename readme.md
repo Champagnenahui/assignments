@@ -12,4 +12,5 @@ Der Überblick zeigt Ihnen die jeweiligen Themen und die dazugehörigen Termine,
 | 4. | 30.10 | [Computerhardware](04_hardware/readme.md) | [Übungen](04_hardware/exercise.md) |
 | 5. | 06.11 | [Schaltnetze](05_digital_logic/readme.md) | [Übungen](05_digital_logic/exercise.md) |
 | 6. | 13.11 | [Theoretische Informatik](06_theoretical_cs/readme.md) | [Übungen](06_theoretical_cs/exercise.md) |
+| 7. | 20.11 | [Rechnernetze](07_networks/readme.md) | [Übungen](07_networks/exercise.md) |
 
