@@ -99,6 +99,8 @@ Bei einem Buch kann man von 30 Zeilen mit jeweils 60 Zeichen ausgehen, also 1800
 
 Die Tastatur eine Schreibmaschine hat ungefähr 50 Tasten. Damit ist die Wahrscheinlichkeit, dass ein Affe für das erste Zeichen die richtige Taste trifft 1:50 (0,02). Für das zweite Zeichen beträgt die Wahrscheinlichkeit `0,02*0,02 =  0,0004` usw. D.h. für die erste Seite beträgt die Wahrscheinlichkeit `(1/50)^1800` bzw. `1/(50^1800)`. Die Wahrscheinlichkeit, dass die Affen es in 50 Jahren schaffen damit `1/(50^1800) * 788.940.000.000` oder `1:10^3046`.
 
+Für Details siehe [Bob Newhart](https://youtu.be/Ngmf8G5xKas).
+
 ## 6.9 Komplexität und Verständlichkeit
 Wenn die Komplexität eines Algorithmus X größer als die eines Algorithmus Y ist, bedeutet dies, dass X schwerer zu verstehen ist als Y? Erläutern Sie Ihre Antwort.
 
