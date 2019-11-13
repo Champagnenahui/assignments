@@ -24,7 +24,7 @@ Testen Sie Ihren Ausdruck mit verschiedenen Matrikelnummern.
 
 *Lösung:*
   * Sommersemester 2018: `/( |^)181[0-9]{4}( |$)/`
-  * Wintersemester 2017: `/( |^)1(72|73|81)[0-9]{4}( |$)`
+  * Wintersemester 2017: `/( |^)1(72|73|81)[0-9]{4}( |$)/`
 
 Die `^` und `$` sind wichtig, da sonst auch längere Matrikelnummern, z.B. `21811111` oder `18111110` matchen würden.
 
