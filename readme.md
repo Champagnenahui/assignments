@@ -14,4 +14,5 @@ Der Überblick zeigt Ihnen die jeweiligen Themen und die dazugehörigen Termine,
 | 6. | 13.11 | [Theoretische Informatik](06_theoretical_cs/readme.md) | [Übungen](06_theoretical_cs/exercise.md) |
 | 7. | 20.11 | [Rechnernetze](07_networks/readme.md) | [Übungen](07_networks/exercise.md) |
 | 8. | 27.11 | [WWW und Internet](08_internet/readme.md) | [Übungen](08_internet/exercise.md) |
+| 9. | 04.12 | [Künstliche Intelligenz](09_ai/readme.md) | [Übungen](09_ai/exercise.md) |
 
