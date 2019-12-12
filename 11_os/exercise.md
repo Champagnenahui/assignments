@@ -19,7 +19,7 @@ Welches Betriebssystem befindet sich auf Ihrem Smartphone? Von welchem Betriebss
 
 
 ## 11.3 Prozess vs. Programm
-Erläutern Sie den Unterschied zwischen einem __Prozess__ und eine __Programm__.
+Erläutern Sie den Unterschied zwischen einem __Prozess__ und einem __Programm__.
 
 
 ## 11.4 Betriebssysteme Architektur
