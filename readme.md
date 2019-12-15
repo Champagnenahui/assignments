@@ -16,4 +16,6 @@ Der Überblick zeigt Ihnen die jeweiligen Themen und die dazugehörigen Termine,
 | 8. | 27.11 | [WWW und Internet](08_internet/readme.md) | [Übungen](08_internet/exercise.md) |
 | 9. | 04.12 | [Künstliche Intelligenz](09_ai/readme.md) | [Übungen](09_ai/exercise.md) |
 | 10. | 11.12 | [IT-Sicherheit](10_security/readme.md) | [Übungen](10_security/exercise.md) |
+| 11. | 18.12 | [Betriebssysteme](11_os/readme.md) | [Übungen](11_os/exercise.md) |
+| 12. | 08.01 | [Weihnachten](12_microcontroller/readme.md) |  |
 
