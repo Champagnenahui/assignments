@@ -13,7 +13,6 @@ Recherchieren Sie den Aufbau und die Funktionen eines Betriebssystems. Welche Di
   - Geschichte und Zweck von Betriebssystemen
   - Aufbau und Dienste
   - Systemkommandos auf der Shell ausführen
-
 ## Begriffe
 
   - Betriebssystem
@@ -23,7 +22,6 @@ Recherchieren Sie den Aufbau und die Funktionen eines Betriebssystems. Welche Di
   - Prozess
   - Shell
   - Shell-Befehle
-
 ## Quellen
 
   * Herold, et al. "Grundlagen der Informatik", 3. Auflage, Pearson Studium, Halbergmoos 2017, S. 433--459

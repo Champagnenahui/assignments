@@ -141,8 +141,6 @@ Was können Sie über die Berechtigungen dieser Datei sagen?
   5. `sudo`
   6. `su`
 
-Keine Abgabe nötig! Ihr Wissen wird dann vor Ort geprüft.
-
 ## 11.14 Prozesse
 Öffnen Sie auf einem Rechner mit dem Betriebssystem Linux eine Shell (Terminal). Schauen Sie sich die Hilfeseiten (oder das Buch "The Linux Command Line") zu den folgenden Kommandos an und experimentieren Sie damit ein wenig.
 
@@ -152,7 +150,6 @@ Keine Abgabe nötig! Ihr Wissen wird dann vor Ort geprüft.
   4. `killall`
   5. `shutdown`
 
-Keine Abgabe nötig! Ihr Wissen wird dann vor Ort geprüft.
 
 ## 11.15 Eingabe- und Ausgabeumlenkung
 Öffnen Sie auf einem Rechner mit dem Betriebssystem Linux eine Shell (Terminal). Experimentieren Sie mit der Eingabe-/Ausgabeumlenkung (`>`, `<`) und Pipes (`|`). Siehe hierzu Kapitel 6 in "The Linux Command Line".
