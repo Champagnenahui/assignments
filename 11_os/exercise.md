@@ -18,6 +18,10 @@ Was versteht man unter einem Betriebssystem, und was sind dessen zentrale Aufgab
 Welches Betriebssystem befindet sich auf Ihrem Smartphone? Von welchem Betriebssystem stammt es ab?
 
 
+*Antworten:*
+
+
+
 ## 11.3 Prozess vs. Programm
 Erläutern Sie den Unterschied zwischen einem __Prozess__ und eine __Programm__.
 
@@ -36,7 +40,7 @@ Um auf den Rechner `jonathan.sv.hs-mannheim.de` bzw. `agent-smith.informatik.hs-
 
 Nachdem Sie den Client installiert haben, loggen Sie sich auf dem Rechner mit Ihrem Fakultätsaccount ein.
 
-Finden Sie heraus, welchen Inhalt die Datei `/etc/exports` hat und geben Sie die ersten 10 Zeilen an.
+Finden Sie heraus, welchen Inhalt die Datei `/etc/exports` (jonathan) bzw. `/etc/mtab` (agent-smith) hat und geben Sie die ersten 10 Zeilen an.
 
 
 ## 11.6 Hilfe holen
