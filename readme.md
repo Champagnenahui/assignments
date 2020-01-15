@@ -18,6 +18,4 @@ Der Überblick zeigt Ihnen die jeweiligen Themen und die dazugehörigen Termine,
 | 10. | 11.12 | [IT-Sicherheit](10_security/readme.md) | [Übungen](10_security/exercise.md) |
 | 11. | 18.12 | [Betriebssysteme](11_os/readme.md) | [Übungen](11_os/exercise.md) |
 | 12. | 08.01 | [Weihnachten](12_microcontroller/readme.md) | [Übungen](12_microcontroller/exercise.md) |
-| 13. | 15.0 | [Datenmanagement](13_data_management/readme.md) | [Übungen](13_data_management/exercise.md) |
-| 14. |  | [Software Engineering](14_software_engineering/readme.md) | [Übungen](14_software_engineering/exercise.md) |
 
