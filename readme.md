@@ -6,7 +6,7 @@ Der Überblick zeigt Ihnen die jeweiligen Themen und die dazugehörigen Termine,
 
 | # | Datum | Thema | Übungen  | Test    |
 |---|-------|-------|----------|---------|
-| 1. | 30.09.2019 | [Einführung](01_intro/readme.md) | [Übungen](01_intro/exercise.md) [Lösung](01_intro/exercise-solution.md) | [Test](01_intro/test.md) [Lösung](01_intro/test-solution.md)
+| 1. | 30.09.2019 | [Einführung](01_intro/readme.md) | [Übungen](01_intro/exercise.md) [Lösung](01_intro/exercise-solution.md) | | 
 | 2. | 09.10.2019 | [Information](02_information/readme.md) | [Übungen](02_information/exercise.md) [Lösung](02_information/exercise-solution.md) | [Test](02_information/test.md) [Lösung](02_information/test-solution.md)
 | 3. | 16.10.2019 | [Kompression und Codierung](03_codes/readme.md) | [Übungen](03_codes/exercise.md) [Lösung](03_codes/exercise-solution.md) | [Test](03_codes/test.md) [Lösung](03_codes/test-solution.md)
 | 4. | 30.10.2019 | [Computerhardware](04_hardware/readme.md) | [Übungen](04_hardware/exercise.md) [Lösung](04_hardware/exercise-solution.md) | [Test](04_hardware/test.md) [Lösung](04_hardware/test-solution.md)
