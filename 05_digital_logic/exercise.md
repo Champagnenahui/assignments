@@ -1,7 +1,5 @@
 # 5. Digitale Logik - Übungen
 
-<!-- Chapter: 5 -->
-
 Hinweis: Die Aufgaben verwenden der Einfachheit halber die Symbole aus Java für die Darstellung der
 
   * _Konjunktion_ (AND): `&`,
@@ -23,7 +21,7 @@ Vereinfachen Sie durch elementare Umformungen den folgenden Ausdruck: `(A | B) &
 
 
 ## 5.4 Logische Funktionen auf Bitfolgen anwenden
-Berechnen Sie `(10010100 & !00101111)`:
+Berechnen Sie `(a & !b) | c` für `a = 10111011`, `b = 01101010`, `c = 10101011`. Zeigen Sie an diesem Beispiel, dass `(a & !b) | c = (a | c) & (!b | c)` gilt.
 
 
 ## 5.5 Logische Funktionen auf Bitfolgen anwenden

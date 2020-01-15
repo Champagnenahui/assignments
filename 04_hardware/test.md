@@ -27,32 +27,32 @@ Warum liefern Festplatten mit 7200 RPM die Daten mit einer höheren Rate als sol
 ## 4.7 Festplatten (15 Punkte)
 Welche der unten aufgeführten Eigenschaften besitzt eine herkömmliche Festplatte - ggf. im Vergleich zu einer SSD? Eine herkömmliche Festplatte ...  (Kreuzen Sie alle richtigen Antworten an)
 
-  * [ ] gehört in die Kategorie der optischen Datenträger
-  * [ ] verwendet Wear Leveling
   * [ ] besitzt Lese-Schreibköpfe
   * [ ] wird elektromagnetisch beschrieben
+  * [ ] gehört in die Kategorie der optischen Datenträger
+  * [ ] verwendet Wear Leveling
+  * [ ] ist billiger als eine SSD
+  * [ ] ist in Sektoren unterteilt
+  * [ ] ist unempfindlicher gegen Erschütterungen
   * [ ] ist durch Flash-Speicherzellen realisiert
   * [ ] wird elektromagnetisch gelesen
-  * [ ] ist in Sektoren unterteilt
   * [ ] ist schneller als eine SSD
-  * [ ] ist unempfindlicher gegen Erschütterungen
-  * [ ] ist billiger als eine SSD
 
 ## 4.8 Speicherzellen (5 Punkte)
 Welche Technologie von Speicherzellen wird zur Realisierung des Hauptspeichers eines herkömmlichen Universalrechners im Allgemeinen verwendet?
 
-  * [ ] DRAM
   * [ ] magnetische
-  * [ ] SRAM
+  * [ ] DRAM
   * [ ] magneto-optische
   * [ ] optische
+  * [ ] SRAM
 
 ## 4.9 Speicherarten (5 Punkte)
 Bei einer Festplatte handelt es sich um einen
 
+  * [ ] Sekundärspeicher
   * [ ] Primärspeicher
   * [ ] Tertiärspeicher
-  * [ ] Sekundärspeicher
 
 ## 4.10 Leistung von USB-Ports (10 Punkte)
 CD-Audio hat zwei Audio-Kanäle (Stereo) mit 16 Bit Auflösung und einer Sampling-Frequenz von 44,1 kHz. Über welche Art von Port könnte man einen solchen Audio-Strom live übertragen? (Kreuzen Sie alle richtigen Antworten an)

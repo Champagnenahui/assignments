@@ -49,7 +49,7 @@ Sie haben die Nachricht `10101010100010` erhalten. Das Prüfpolynom ist `10001`.
 Ja, die Nachricht wurde korrekt übertragen, da das Ergebnis der XOR-Division 0 ist.
 
 ## 3.4 Huffman-Code bestimmen (20 Punkte)
-Bestimmen Sie für folgende Daten einen _Huffman-Code_. Geben Sie auf jeden Fall den Baum an, den Sie zur Bestimmung des Codes eingesetzt haben.
+Bestimmen Sie für folgende Daten einen _Huffman-Code_. Geben Sie auf jeden Fall zusätzlich den Baum an, den Sie zur Bestimmung des Codes eingesetzt haben.
 
 | Zeichen       | A | B | C | D |
 |---------------|---|---|---|---|

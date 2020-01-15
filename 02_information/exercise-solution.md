@@ -1,6 +1,4 @@
-# 2. Übungsblatt 2: Information (Musterlösung)
-
-<!-- Chapter: 2 -->
+# 2. Information - Übungen (Musterlösung)
 
 ## 2.1 Pi als Nachricht
 Lässt sich die Zahl π als Nachricht übermitteln? Begründen Sie Ihre Antwort.
@@ -85,7 +83,7 @@ Vorzeichen
 
 Damit ist
 z = (-1)^1·1,0011·2^(129-127) = -1·100,11 = -1·(4 + 1/2 + 1/4)
-  = -4,75
+z = -4,75
 
 Zahl 2:
 0000 0000 0000 0000 0000 0000 0000 0000
@@ -109,7 +107,13 @@ Vorzeichen
 
 z = (-1)^1·1,1·2^(1033-1023) = (-1)^1·11000000000 = -1536
 
-## 2.6 Zweierkomplement
+## 2.6 Sinn des Zweierkomplements
+Warum ist es sinnvoll, einen Wert im Zweierkomplement darzustellen, bzw. worin liegt der Vorteil zur Darstellung im Einerkomplement?
+
+*Lösung:*
+Beide Darstellungsweisen dienen zur Codierung von vorzeichenbehafteten Zahlenwerten. In beiden Darstellungsweisen wird das Vorzeichen durch das führende Bit, das MSB, festgelegt. Eine führende 0 ist als +, eine führende 1 als - festgelegt. In der Einerkomplementdarstellung muss bei negativen Werten eine bitweise Invertierung des Betragswert erfolgen. Die Zweierkomplementdarstellung benötigt ebenfalls bei negativen Zahlen eine bitweise Invertierung. Hier wird nach der Invertierung zusätzlich eine Addition mit 1 durchgeführt. Der Wert einer Bitfolge in Zweierkomplementdarstellung ergibt sich immer als Summe der Einzelwertigkeiten, wobei hier auch der Wert des Vorzeichenbits als negativer Summand zur Berechnung genutzt wird.
+
+## 2.7 Zweierkomplement
 Wandeln Sie die Dezimalzahl -126 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
 *Lösung:*
 126 = 1111110 binär
@@ -122,39 +126,7 @@ Wandeln Sie die Dezimalzahl -126 in eine binäre Darstellung mit 8 Bit um. Verwe
 10000010
 ```
 
-## 2.7 Zweierkomplement
-Wandeln Sie die Dezimalzahl -1 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
-*Lösung:*
-1 = 1 binär
-
-```console
-       1
-11111110 Bits invertieren
-11111111 + 1
-========
-11111111
-```
-
-## 2.8 Zweierkomplement
-Wandeln Sie die Dezimalzahl -77 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
-*Lösung:*
-77 = 1001101 binär
-
-```console
- 1001101
-10110010 Bits invertieren
-10110011 + 1
-========
-10110011
-```
-
-## 2.9 Sinn des Zweierkomplements
-Warum ist es sinnvoll, einen Wert im Zweierkomplement darzustellen, bzw. worin liegt der Vorteil zur Darstellung im Einerkomplement?
-
-*Lösung:*
-Beide Darstellungsweisen dienen zur Codierung von vorzeichenbehafteten Zahlenwerten. In beiden Darstellungsweisen wird das Vorzeichen durch das führende Bit, das MSB, festgelegt. Eine führende 0 ist als +, eine führende 1 als - festgelegt. In der Einerkomplementdarstellung muss bei negativen Werten eine bitweise Invertierung des Betragswert erfolgen. Die Zweierkomplementdarstellung benötigt ebenfalls bei negativen Zahlen eine bitweise Invertierung. Hier wird nach der Invertierung zusätzlich eine Addition mit 1 durchgeführt. Der Wert einer Bitfolge in Zweierkomplementdarstellung ergibt sich immer als Summe der Einzelwertigkeiten, wobei hier auch der Wert des Vorzeichenbits als negativer Summand zur Berechnung genutzt wird.
-
-## 2.10 Rechnen im Binärsystem
+## 2.8 Rechnen im Binärsystem
 Führen Sie die folgenden binären Rechenoperationen durch
 
   * `110101 + 11001 =`
@@ -195,51 +167,7 @@ Führen Sie die folgenden binären Rechenoperationen durch
  101000,1001   20,5625            000,10111    0,71875
 ```
 
-## 2.11 Rechnen im Binärsystem - Addition
-Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `110101 + 11001`
-
-*Lösung:*
-```console
-    110101    53
-+    11001    25
------------------
-   1001110    78
-```
-
-## 2.12 Rechnen im Binärsystem - Addition
-Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `111011 + 11101`
-
-*Lösung:*
-```console
-    111011    59
-+    11101    29
------------------
-   1011000    88
-```
-
-## 2.13 Rechnen im Binärsystem - Subtraktion
-Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `111011 - 10111` (mit Zweierkomplement)
-*Lösung:*
-```console
-     10111    23
-  11101001   (Zweierkomplement -23)
-+   111011    59
------------------
-  100100100    36
-```
-
-## 2.14 Rechnen im Binärsystem - Subtraktion
-Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `110001 - 1101101` (mit Zweierkomplement)
-*Lösung:*
-```console
-   1101101   109
-  10010011   (Zweierkomplement -109)
-+   110001    49
------------------
-  11000100   -60
-```
-
-## 2.15 Bild codieren
+## 2.9 Bild codieren
 Überlegen Sie sich ein Schema, wie das folgende Bild in Bits umgewandelt werden kann. Versuchen Sie die Daten so kompakt wie möglich abzulegen.
 
 ![](img/mario.png)
@@ -260,7 +188,7 @@ hellrot = 11
 16. Zeile: 00000101 01010000 00000101 01010000 = 0x05 0x50 0x05 0x50
 ```
 
-## 2.16 Text codieren
+## 2.10 Text codieren
 Codieren Sie den folgenden Text in ISO-8859-1 und UTF-8.
 
 "Mögest du viel Spaß haben!"
@@ -277,19 +205,19 @@ UTF-8:
 UCS2:
 4d 00 f6 00 67 00 65 00 73 00 74 00 20 00 64 00 75 00 20 00 76 00 69 00 65 00 6c 00 20 00 53 00 70 00 61 00 df 00 20 00 68 00 61 00 62 00 65 00 6e 00 21 00 
 
-## 2.17 Sampling-Rate
+## 2.11 Sampling-Rate
 Warum haben CDs eine Abtastrate von 44,1 kHz?
 
 *Lösung:*
 Der menschliche Hörsinn geht von 16 Hz bis ca. 19 kHz. Bei einer Abtastrate von 44,1 kHz kann man gemäß Nyquist-Shannon-Abtasttheorem Frequenzen bis 22 kHz aufnehmen. Eine höhere Abtastrate würde es erlauben, höhere Frequenzen aufzuzeichnen, diese könnten aber nicht wahrgenommen werden und würden nur die Datenmenge vergrößern.
 
-## 2.18 Datenmenge einer CD
-Eine CD zeichnet Audiosignale mit 16 Bit bei 44,1 kHz Abtastrate unkomprimiert auf. Wie groß wird eine Stereo-CD mit 70 Minuten Laufzeit ungefähr? Begründen Sie Ihre Antwort.
+## 2.12 Datenmenge einer CD
+Eine CD zeichnet Audiosignale mit 16 Bit bei 44,1 kHz Abtastrate unkomprimiert auf. Wie groß (in Megabyte) wird eine Stereo-CD mit 70 Minuten Laufzeit ungefähr? Begründen Sie Ihre Antwort.
 
 *Lösung:*
 Bei 44,1 kHz werden alle 44.100 * 2 Byte pro Sekunde erzeugt. Das sind 86 kB pro Sekunde oder 5 MB pro Minute. 70 Minuten ergeben damit 350 MB pro Stereo-Kanal oder 700 MB in Summe für ein Stereo-Signal.
 
-## 2.19 Umrechnung von Speicherkapazitäten
+## 2.13 Umrechnung von Speicherkapazitäten
 Eine Festplatte ist mit einer Speicherkapazität von 4 TB angegeben. Wieviele Bytes können Sie darauf speichern? Begründen Sie Ihre Antwort.
 
 *Lösung:*

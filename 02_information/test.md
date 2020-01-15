@@ -1,8 +1,5 @@
 # 2. Information - Test (100 Punkte)
 
-<!-- Chapter: 2 -->
-
-
 ## 2.1 Umwandlung ins Hexadezimalsystem (15 Punkte)
 Wandeln Sie die folgenden Zahlen in das _Hexadezimalsystem_ (Basis 16) um:
 
@@ -14,29 +11,29 @@ Wandeln Sie die folgenden Zahlen in das _Hexadezimalsystem_ (Basis 16) um:
 ## 2.2 Umwandeln ins binäre Zahlensystem (5 Punkte)
 Wandeln Sie die Zahl `29` in eine _binäre Darstellung_ (Basis 2) um. Kreuzen Sie die richtige Antwort an.
 
-  * [ ] 101101
-  * [ ] 11101
-  * [ ] 11100
-  * [ ] 01100
   * [ ] 10101
+  * [ ] 11101
+  * [ ] 101101
+  * [ ] 01100
+  * [ ] 11100
 
 ## 2.3 Binäre Addition (15 Punkte)
 _Addieren_ Sie die binären Zahlen 101100110 und 110001100. Kreuzen Sie die richtige Antwort an.
 
-  * [ ] 1011110111
-  * [ ] 1111110010
   * [ ] 1011000011
+  * [ ] 1011110111
   * [ ] 1011000010
+  * [ ] 1111110010
   * [ ] 1011110010
 
 ## 2.4 Binäre Subtraktion (20 Punkte)
 _Subtrahieren_ Sie von der binären Zahl 1001100 die Zahl 101100 unter Verwendung des _Zweierkomplements_. Kreuzen Sie die richtige Antwort an.
 
   * [ ] (1)1101100
-  * [ ] (1)1100000
-  * [ ] (1)0100000
   * [ ] (0)0101111
   * [ ] (0)0101000
+  * [ ] (1)0100000
+  * [ ] (1)1100000
 
 ## 2.5 Zweierkomplement (15 Punkte)
 Bilden Sie das _Zweierkomplement_ der folgenden binären Zahlen ohne die Bitbreite zu vergrößern:
@@ -54,7 +51,7 @@ Was versteht man unter dem _ASCII-Code_?
 
 
 ## 2.8 Abtastrate (10 Punkte)
-Wie muss man die _Abtastrate_ wählen, um ein Signal mit einer Frequenz von _20 kHz_ korrekt zu digitalisieren? Kreuzen Sie die richtige Antwort an.
+Wie hoch muss die _Abtastrate_ mindestens sein, um ein Signal mit einer Frequenz von _20 kHz_ korrekt zu digitalisieren? Kreuzen Sie die richtige Antwort an.
 
   * [ ] 5 kHz
   * [ ] 10 kHz

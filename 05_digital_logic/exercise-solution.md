@@ -60,17 +60,23 @@ F   T      T          T           T
 ```
 
 ## 5.4 Logische Funktionen auf Bitfolgen anwenden
-Berechnen Sie `(10010100 & !00101111)`:
+Berechnen Sie `(a & !b) | c` für `a = 10111011`, `b = 01101010`, `c = 10101011`. Zeigen Sie an diesem Beispiel, dass `(a & !b) | c = (a | c) & (!b | c)` gilt.
 
 *Lösung:*
-
 ```console
-!00101111 = 11010000
+           a 10111011
+          !b 10010101
+      a & !b 10010001
+           c 10101011
+             --------
+(a & !b) | c 10111011
 
-   10010100
- & 11010000
- ----------
-   10010000
+             a 10111011       !b 10010101
+             c 10101011        c 10101011
+         a | c 10111011   !b | c 10111111
+        !b | c 10111111
+               --------
+(a|c) & (!b|c) 10111011
 ```
 
 ## 5.5 Logische Funktionen auf Bitfolgen anwenden

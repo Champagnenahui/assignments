@@ -1,6 +1,4 @@
-# 2. Übungsblatt 2: Information
-
-<!-- Chapter: 2 -->
+# 2. Information - Übungen
 
 ## 2.1 Pi als Nachricht
 Lässt sich die Zahl π als Nachricht übermitteln? Begründen Sie Ihre Antwort.
@@ -32,7 +30,6 @@ Vervollständigen Sie die leeren Felder:
 |          |           |        |  AC,8        |
 
 
-
 ## 2.5 Gleitkommazahlen nach IEEE
 Während der Fehlersuche stoßen Sie auf das folgende Speicherabbild:
 
@@ -46,20 +43,14 @@ Welche Werte werden dargestellt, wenn Sie die Werte
 Nehmen Sie für Ihre Betrachtung an, dass die Bytes in natürlicher Reihenfolge im Speicher abgelegt sind (Big-Endian-Format).
 
 
-## 2.6 Zweierkomplement
-Wandeln Sie die Dezimalzahl -126 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
-
-## 2.7 Zweierkomplement
-Wandeln Sie die Dezimalzahl -1 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
-
-## 2.8 Zweierkomplement
-Wandeln Sie die Dezimalzahl -77 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
-
-## 2.9 Sinn des Zweierkomplements
+## 2.6 Sinn des Zweierkomplements
 Warum ist es sinnvoll, einen Wert im Zweierkomplement darzustellen, bzw. worin liegt der Vorteil zur Darstellung im Einerkomplement?
 
 
-## 2.10 Rechnen im Binärsystem
+## 2.7 Zweierkomplement
+Wandeln Sie die Dezimalzahl -126 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
+
+## 2.8 Rechnen im Binärsystem
 Führen Sie die folgenden binären Rechenoperationen durch
 
   * `110101 + 11001 =`
@@ -71,21 +62,7 @@ Führen Sie die folgenden binären Rechenoperationen durch
   * `110,1001 - 101,11011 =`
 
 
-## 2.11 Rechnen im Binärsystem - Addition
-Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `110101 + 11001`
-
-
-## 2.12 Rechnen im Binärsystem - Addition
-Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `111011 + 11101`
-
-
-## 2.13 Rechnen im Binärsystem - Subtraktion
-Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `111011 - 10111` (mit Zweierkomplement)
-
-## 2.14 Rechnen im Binärsystem - Subtraktion
-Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `110001 - 1101101` (mit Zweierkomplement)
-
-## 2.15 Bild codieren
+## 2.9 Bild codieren
 Überlegen Sie sich ein Schema, wie das folgende Bild in Bits umgewandelt werden kann. Versuchen Sie die Daten so kompakt wie möglich abzulegen.
 
 ![](img/mario.png)
@@ -93,7 +70,7 @@ Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `11000
 Codieren Sie die erste und die letzte Zeile nach Ihrem Schema und geben Sie das Ergebnis an. Gruppieren Sie dabei die Bits in Bytes.
 
 
-## 2.16 Text codieren
+## 2.10 Text codieren
 Codieren Sie den folgenden Text in ISO-8859-1 und UTF-8.
 
 "Mögest du viel Spaß haben!"
@@ -101,15 +78,15 @@ Codieren Sie den folgenden Text in ISO-8859-1 und UTF-8.
 Geben Sie das Ergebnis als Bytes in hexadezimaler Schreibweise an.
 
 
-## 2.17 Sampling-Rate
+## 2.11 Sampling-Rate
 Warum haben CDs eine Abtastrate von 44,1 kHz?
 
 
-## 2.18 Datenmenge einer CD
-Eine CD zeichnet Audiosignale mit 16 Bit bei 44,1 kHz Abtastrate unkomprimiert auf. Wie groß wird eine Stereo-CD mit 70 Minuten Laufzeit ungefähr? Begründen Sie Ihre Antwort.
+## 2.12 Datenmenge einer CD
+Eine CD zeichnet Audiosignale mit 16 Bit bei 44,1 kHz Abtastrate unkomprimiert auf. Wie groß (in Megabyte) wird eine Stereo-CD mit 70 Minuten Laufzeit ungefähr? Begründen Sie Ihre Antwort.
 
 
-## 2.19 Umrechnung von Speicherkapazitäten
+## 2.13 Umrechnung von Speicherkapazitäten
 Eine Festplatte ist mit einer Speicherkapazität von 4 TB angegeben. Wieviele Bytes können Sie darauf speichern? Begründen Sie Ihre Antwort.
 
 

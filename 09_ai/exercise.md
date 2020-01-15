@@ -83,13 +83,11 @@ Sie finden ein _unbekanntes Objekt_ in einem Obstkorb, mit einer Masse von 140g 
 ## 9.12 Berechnungen an einem Neuron
 Gegeben sei ein künstliches Neuron mit drei Eingängen (x1, x2 und x3) (und einem Ausgang a). Die Gewichte für die drei Eingänge sind:
 
-  * w1: 0.3
-  * w2: 0.5
-  * w3: 0.2
+`(w1, w2, w3) = (0.3, 0.5, 0.2)`
 
-Als Aktivierungsfunktion wird die Sigmoid-Funktion verwendet, wobei vorher noch ein Bias addiert wird. Der Bias beträgt konstant -2.0. Den Verlauf der Sigmoid-Funktion `f(x) = 1 / (1 + exp(-x))` für das Neuron können Sie aus folgender Grafik ableiten:
+Als Aktivierungsfunktion wird die Sigmoid-Funktion verwendet, wobei vorher noch ein Bias addiert wird. Der Bias beträgt konstant -2.0. Den Verlauf der Sigmoid-Funktion `f` für das Neuron können Sie aus folgender Grafik ableiten (`f(x) = 1 / (1 + exp(-x))`):
 
-<img src="img/sigmoid.png" width="700">
+<img src="img/sigmoid.png" width="500">
 
 Berechnen Sie für folgende Werte die Ausgabe des Neurons:
 

@@ -41,7 +41,7 @@ Wenn Sie die Wahl hätten, einen Hub oder einen Switch einzusetzen, welche Kompo
 
 
 ## 7.11 Fehlerkorrektur in UDP
-Mit welchem Verfahren behandelt UDP das Auftreten eines Fehlers? Was ist der Unterschied zwischen UDP und TCP?
+Mit welchem Verfahren behandelt UDP das Auftreten eines Fehlers, z.B. ein verlorenes oder ein doppelt empfangenes Paket? Was ist der Unterschied zwischen UDP und TCP?
 
 
 ## 7.12 ARP

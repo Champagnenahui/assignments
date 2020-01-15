@@ -1,7 +1,5 @@
 # 3. Kompression und Codierung - Übungen (Musterlösung)
 
-<!-- Chapter: 3 -->
-
 ## 3.1 Morse-Alphabet
 Warum werden beim Morse-Alphabet manche Buchstaben mit kurzen und manche mit langen Folgen der Zeichen `.` und `-` dargestellt? Handelt es sich beim Morse-Alphabet um eine binäre Codierung? Begründen Sie Ihre Antwort.
 
@@ -142,8 +140,9 @@ Probe
 ```
 
 ## 3.7 Daten mit CRC prüfen
-Sie haben die Nachricht `10101010100010` erhalten. Das Prüfpolynom ist `10001`. Ist die Nachricht korrekt übertragen worden?
+Sie haben die Nachricht `10101010100010` erhalten. Das Prüfpolynom ist `10001`. Ist die Nachricht korrekt übertragen worden? (Geben Sie auch den Rechenweg an.)
 
+![](img/squares-20x12.pdf)
 *Lösung:*
 ```console
 10101010100010

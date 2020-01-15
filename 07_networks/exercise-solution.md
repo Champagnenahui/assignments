@@ -46,7 +46,7 @@ Im WLAN wird das CSMA/CA-Protokoll verwendet. Beim CSMA/CD müssen die Teilnehme
 IPv4 benutzt 32-Bit-Adressen, die inzwischen nicht mehr ausreichen, um alle Geräte im Internet zu adressieren. IPv6 setzt 128-Bit-Adressen ein. Ist dies diesmal ausreichend oder wird es in der Zukunft wieder zu Knappheit der Adressen kommen? Begründen Sie Ihre Antwort.
 
 *Lösung:*
-128 Bit-Adressen werden mehr als ausreichen. Damit lassen sich 2^128 einzelne Hosts adressieren, das entspricht ungefähr 10^38. Diese Zahl ist ausreichend, um jedem Atom in der Erdkruste eine eigene IPv6-Adresse zu geben. Somit ist es höchst unwahrscheinlich, dass die Adressen nicht reichen könnten.
+128 Bit-Adressen werden mehr als ausreichen. Damit lassen sich 2^128 einzelne Hosts adressieren, das entspricht ungefähr 10^38. Diese Zahl ist ausreichend, um jedem Atom in der Erdkruste eine eigene IPv6-Adresse zu geben oder jedem Quadratmillimeter der Erdoberfläche (Erdoberfläche ca. 510.000.00 km^2) 6.6*10^24 Adressen zuzuweisen. Somit ist es höchst unwahrscheinlich, dass die Adressen nicht reichen könnten.
 
 ## 7.9 Bridge vs. Router vs. Switch
 Erläutern Sie bitte kurz die Unterschiede zwischen einer Bridge, einem Router und einem Switch.
@@ -61,10 +61,12 @@ Wenn Sie die Wahl hätten, einen Hub oder einen Switch einzusetzen, welche Kompo
 Man sollte einen Switch einsetzen, weil bei einem Switch die Datenpakete nur an die Ports gesendet werden, an denen die Adressaten angeschlossen sind. Ein Hub sendet die Pakete immer an alle Ports. Damit vermeidet ein Switch zum einen Netzwerkkollisionen und ist zum anderen sicherer.
 
 ## 7.11 Fehlerkorrektur in UDP
-Mit welchem Verfahren behandelt UDP das Auftreten eines Fehlers? Was ist der Unterschied zwischen UDP und TCP?
+Mit welchem Verfahren behandelt UDP das Auftreten eines Fehlers, z.B. ein verlorenes oder ein doppelt empfangenes Paket? Was ist der Unterschied zwischen UDP und TCP?
 
 *Lösung:*
 Das UPD-Protokoll kennt keine Fehlerkorrektur. Es ist der Anwendung überlassen, auftretende Fehler zu korrigieren.
+
+TCP ist verbindungsorientiert und zuverlässig, UDP hingegen paketorientiert und unzuverlässig. Zuverlässig bzw. unzuverlässig bedeutet, dass die Fehlerkorrektur bei UDP Sache des Programmierers, bei TCP hingegen des Protokolls ist.
 
 ## 7.12 ARP
 Um ein IP-Paket zustellen zu können, muss der Router die IP-Adresse zu der MAC-Adresse des Ziel-Hosts auflösen. Hierzu wird das *Address Resolution Protocol (ARP)* verwendet. Beschreiben Sie bitte grob, wie eine solche Auflösung abläuft.

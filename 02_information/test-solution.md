@@ -1,8 +1,5 @@
 # 2. Information - Test (Musterlösung) (100 Punkte)
 
-<!-- Chapter: 2 -->
-
-
 ## 2.1 Umwandlung ins Hexadezimalsystem (15 Punkte)
 Wandeln Sie die folgenden Zahlen in das _Hexadezimalsystem_ (Basis 16) um:
 
@@ -67,7 +64,7 @@ Was versteht man unter dem _ASCII-Code_?
 Der American Standard Code for Information Interchange (ASCII) ist eine 7-Bit-Zeichenkodierung. Die druckbaren Zeichen umfassen das lateinische Alphabet in Groß- und Kleinschreibung, die zehn arabischen Ziffern sowie einige Interpunktionszeichen (Satzzeichen, Wortzeichen) und andere Sonderzeichen.
 
 ## 2.8 Abtastrate (10 Punkte)
-Wie muss man die _Abtastrate_ wählen, um ein Signal mit einer Frequenz von _20 kHz_ korrekt zu digitalisieren? Kreuzen Sie die richtige Antwort an.
+Wie hoch muss die _Abtastrate_ mindestens sein, um ein Signal mit einer Frequenz von _20 kHz_ korrekt zu digitalisieren? Kreuzen Sie die richtige Antwort an.
 
   * [ ] 5 kHz
   * [ ] 10 kHz

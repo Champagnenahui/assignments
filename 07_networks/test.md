@@ -35,8 +35,8 @@ Was versteht man im Rahmen von Netzwerken unter *Multicast*? Geben Sie bitte auc
 ## 7.9 Hidden-Station-Problem (10 Punkte)
 Was ist das Hidden-Station-Problem, auch Hidden-Node-Problem genannt?
 
-  * [ ] Der Access-Point (AP) sieht eine Station, andere Teilnehmer im Netz können sie nicht sehen
-  * [ ] Eine Station versteckt sich absichtlich vor anderen
   * [ ] Eine Station ist vor allen Teilnehmern und dem Access-Point (AP) verborgen
+  * [ ] Eine Station versteckt sich absichtlich vor anderen
+  * [ ] Der Access-Point (AP) sieht eine Station, andere Teilnehmer im Netz können sie nicht sehen
   * [ ] Eine Station sieht weder die anderen Teilnehmer, noch den Access-Point (AP)
 

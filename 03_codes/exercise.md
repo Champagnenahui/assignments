@@ -1,7 +1,5 @@
 # 3. Kompression und Codierung - Übungen
 
-<!-- Chapter: 3 -->
-
 ## 3.1 Morse-Alphabet
 Warum werden beim Morse-Alphabet manche Buchstaben mit kurzen und manche mit langen Folgen der Zeichen `.` und `-` dargestellt? Handelt es sich beim Morse-Alphabet um eine binäre Codierung? Begründen Sie Ihre Antwort.
 
@@ -51,8 +49,9 @@ Berechnen Sie für die Nachricht `1101011010` die CRC-Prüfsumme mit dem Prüfpo
 
 
 ## 3.7 Daten mit CRC prüfen
-Sie haben die Nachricht `10101010100010` erhalten. Das Prüfpolynom ist `10001`. Ist die Nachricht korrekt übertragen worden?
+Sie haben die Nachricht `10101010100010` erhalten. Das Prüfpolynom ist `10001`. Ist die Nachricht korrekt übertragen worden? (Geben Sie auch den Rechenweg an.)
 
+![](img/squares-20x12.pdf)
 
 ## 3.8 Komprimierung mit RLE
 Komprimieren Sie das folgende Bild mit Hilfe eines Run-Length-Encodings (RLE). Geben Sie das Ergebnis an. Verwenden Sie der Einfachheit halber für alle Pixel eine Längenangabe und verzichten Sie auf das Markierungsbyte. Sie können anstatt der Byte-Folge einen Buchstaben für jede Farbe verwenden, z.B. `w` für weiß, `b` für blau etc.

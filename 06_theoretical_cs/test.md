@@ -13,14 +13,14 @@ Geben Sie einen regulären Ausdruck an, der zwei durch Bindestrich (`-`) verbund
 
 Kreuzen Sie die richtige Antwort an.
 
-  * [ ] `sed -E 's/[.+]-[.+]/$2-$1/g'`
-  * [ ] `sed -E 's/.+-.+/\2-\1/g'`
   * [ ] `sed -E 's/(*)-(*)/\2-\1/g'`
-  * [ ] `sed -E 's/(.+)-(.+)/\2-\1/g'`
   * [ ] `sed -E 's/.+-.+/$2-$1/g'`
-  * [ ] `sed -E 's/(.+)-(.+)/$2-$1/g'`
+  * [ ] `sed -E 's/.+-.+/\2-\1/g'`
   * [ ] `sed -E 's/[.+]-[.+]/\2-\1/g'`
   * [ ] `sed -E 's/(*)-(*)/$2-$1/g'`
+  * [ ] `sed -E 's/[.+]-[.+]/$2-$1/g'`
+  * [ ] `sed -E 's/(.+)-(.+)/$2-$1/g'`
+  * [ ] `sed -E 's/(.+)-(.+)/\2-\1/g'`
 
 ## 6.4 Erweiterte Backus-Naur-Form (EBNF) (25 Punkte)
 Gegeben sei die folgende Grammatik in EBNF-Form
